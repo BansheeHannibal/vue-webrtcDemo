@@ -1,0 +1,20 @@
+// 按钮
+.zg-btn {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    background: #fff;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+    &[disabled] {
+        opacity: 1;
+        background: #dbdbdb;
+        cursor: not-allowed;
+    }
+}

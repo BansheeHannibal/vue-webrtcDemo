@@ -1,0 +1,14 @@
+// 背景色填充，无边框
+.zg-btn-primary {
+    background-color: #0d70ff;
+    color: #fff;
+    &:hover {
+        background-color: #0d62ff;
+    }
+    &:active {
+        background-color: #0d55ff;
+    }
+    &[disabled] {
+        background-color: #dbdbdb;
+    }
+}
